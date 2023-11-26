@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Your Art Portfolio</h1>
+        <h1>Lavavamp</h1>
         {/* Add any additional header content, like navigation links, here */}
       </header>
 
@@ -16,7 +16,7 @@ function App() {
       </main>
 
       <footer className="App-footer">
-        &copy; 2023 Your Name. All rights reserved.
+        &copy; 2023 Chloe Imbusch. All rights reserved.
       </footer>
     </div>
   );
