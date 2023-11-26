@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lavavamp/lavavamp-site/static/css/main.09597498.css",
+    "main.js": "/lavavamp/lavavamp-site/static/js/main.fe908a99.js",
+    "static/js/787.b63ccce6.chunk.js": "/lavavamp/lavavamp-site/static/js/787.b63ccce6.chunk.js",
+    "index.html": "/lavavamp/lavavamp-site/index.html",
+    "main.09597498.css.map": "/lavavamp/lavavamp-site/static/css/main.09597498.css.map",
+    "main.fe908a99.js.map": "/lavavamp/lavavamp-site/static/js/main.fe908a99.js.map",
+    "787.b63ccce6.chunk.js.map": "/lavavamp/lavavamp-site/static/js/787.b63ccce6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09597498.css",
+    "static/js/main.fe908a99.js"
+  ]
+}
