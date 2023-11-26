@@ -1,4 +1,4 @@
-# chloeimb.github.io
+chloeimb.github.io
 # ./build
 # Getting Started with Create React App
 
