@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
+  color: white;
 }
 
 .App {
@@ -27,3 +28,36 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+/* App.css */
+.menu-button {
+  display: none; /* Hide the button on larger screens */
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Adjust the top position as needed */
+  left: 0;
+  background-color: #333;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.nav-menu.open {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .nav-menu {
+    top: 60px; /* Adjust the top position as needed */
+  }
+}
+
