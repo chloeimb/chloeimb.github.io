@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Lavavamp</h1>
+        <h1>LavaVamp</h1>
         {/* Add any additional header content, like navigation links, here */}
       </header>
 
