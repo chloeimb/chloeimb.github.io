@@ -1,24 +1,32 @@
+// Import necessary dependencies
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+
+// Import your components/pages
+import Home from './Home';
+import ArtGallery from './ArtGallery';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>LavaVamp</h1>
-        {/* Add any additional header content, like navigation links, here */}
-      </header>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <h1>LavaVamp</h1>
+          {/* Add any additional header content, like navigation links, here */}
+        </header>
 
-      <main className="App-main">
-        <h2>Welcome to My Art Gallery</h2>
-        {/* Add your art content here */}
-        <p>This is where you can showcase your artwork and provide some information about yourself.</p>
-      </main>
+        {/* Define routes for different pages */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/art-gallery" element={<ArtGallery />} />
+        </Routes>
 
-      <footer className="App-footer">
-        &copy; 2023 Chloe Imbusch. All rights reserved.
-      </footer>
-    </div>
+        <footer className="App-footer">
+          &copy; 2023 Chloe Imbusch. All rights reserved.
+        </footer>
+      </div>
+    </Router>
   );
 }
 
